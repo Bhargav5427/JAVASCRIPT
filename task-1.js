@@ -37,7 +37,7 @@ var c = prompt("enter celsius = ");
 var a = c * (9 / 5) + 32;
 
 
-document.write("area of circle is = ", a);
+document.write("Celsius to Fahrenheit = ", a);
 
 // 4
 
@@ -64,10 +64,9 @@ var b = prompt("enter base of triangle");
 var h = prompt("enter height of triangle");
 var pi = 3.14
 var a = 0.5 * b * h;;
-
+document.write("area of triangle is = ", a);
 // 7
 
-document.write("area of triangle is = ", a);
 var a = parseInt(prompt("enter the amount"));
 var r = parseFloat(prompt("enter rate"));
 var t = parseInt(prompt("enter year"));
